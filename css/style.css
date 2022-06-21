@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-family: sans-serif, Arial, Helvetica;
+}
+
+.header {
+    display: flex;
+    grid-area: header;
+    background: #345b63;
+    align-items: center;
+    justify-content: center;
+    max-height: 100px;
+}
+
+.main {
+    grid-area: main;
+    background-color: #ddf0e4;
+    padding: 2rem;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    background: #152d35;
+}
+
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 0.3fr 2fr;
+    grid-template-rows: 100px 1fr;
+    grid-template-areas:
+        "header header"
+        "sidebar main"        
+}
+
+h1 {
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    margin: 0;    
+}
+
+a {
+    color: white;
+    line-height: 2.5;
+}
+
+.Montanha_1 {
+    margin: 2%;
+    width: 95%;
+}
+
+h5 {
+    color: black;
+    text-align: left;
+    margin: 2%;
+}
+
+h2 {
+    color: black;
+    text-align: left;
+    margin: 2%;
+}
